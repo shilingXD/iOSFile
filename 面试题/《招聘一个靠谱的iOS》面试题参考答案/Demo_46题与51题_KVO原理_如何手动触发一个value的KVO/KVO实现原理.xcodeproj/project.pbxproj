@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04564EB6247FB9A50088296C /* NSObject+avoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 04564EB5247FB9A50088296C /* NSObject+avoidCrash.m */; };
+		04564EBA247FC0060088296C /* UIViewController+Logging.m in Sources */ = {isa = PBXBuildFile; fileRef = 04564EB9247FC0060088296C /* UIViewController+Logging.m */; };
 		9A1530491CB4E4C900EF35B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1530481CB4E4C900EF35B5 /* main.m */; };
 		9A15304C1CB4E4C900EF35B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A15304B1CB4E4C900EF35B5 /* AppDelegate.m */; };
 		9A15304F1CB4E4C900EF35B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A15304E1CB4E4C900EF35B5 /* ViewController.m */; };
@@ -16,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04564EB4247FB9A50088296C /* NSObject+avoidCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+avoidCrash.h"; sourceTree = "<group>"; };
+		04564EB5247FB9A50088296C /* NSObject+avoidCrash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+avoidCrash.m"; sourceTree = "<group>"; };
+		04564EB8247FC0060088296C /* UIViewController+Logging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Logging.h"; sourceTree = "<group>"; };
+		04564EB9247FC0060088296C /* UIViewController+Logging.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Logging.m"; sourceTree = "<group>"; };
 		9A1530441CB4E4C900EF35B5 /* KVO实现原理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KVO实现原理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A1530481CB4E4C900EF35B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9A15304A1CB4E4C900EF35B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +73,10 @@
 				9A1530551CB4E4C900EF35B5 /* LaunchScreen.storyboard */,
 				9A1530581CB4E4C900EF35B5 /* Info.plist */,
 				9A1530471CB4E4C900EF35B5 /* Supporting Files */,
+				04564EB4247FB9A50088296C /* NSObject+avoidCrash.h */,
+				04564EB5247FB9A50088296C /* NSObject+avoidCrash.m */,
+				04564EB8247FC0060088296C /* UIViewController+Logging.h */,
+				04564EB9247FC0060088296C /* UIViewController+Logging.m */,
 			);
 			path = "KVO实现原理";
 			sourceTree = "<group>";
@@ -118,6 +128,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -150,8 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A15304F1CB4E4C900EF35B5 /* ViewController.m in Sources */,
+				04564EBA247FC0060088296C /* UIViewController+Logging.m in Sources */,
 				9A15304C1CB4E4C900EF35B5 /* AppDelegate.m in Sources */,
 				9A1530491CB4E4C900EF35B5 /* main.m in Sources */,
+				04564EB6247FB9A50088296C /* NSObject+avoidCrash.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +315,7 @@
 				9A15305D1CB4E4C900EF35B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
