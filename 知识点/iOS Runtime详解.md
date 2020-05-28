@@ -297,7 +297,7 @@ instanceProperties：表示Category里所有的properties，这就是我们可�
 - 备用接收者
 - 完整消息转发
 
-![](\image\QQ20200528-142950@2x.png)
+![](image/QQ20200528-142950@2x.png)
 
 #### 动态方法解析
 
@@ -644,7 +644,7 @@ class_addMethod([self class], sel, (IMP)fooMethod, "v@:");
 
 实现图解如下图。
 
-<img src="\image\QQ20200528-143211@2x.png" style="zoom:50%;" />
+<img src="image/QQ20200528-143211@2x.png" style="zoom:50%;" />
 
 > 从图中可以看出，我们通过swizzling特性，将selectorC的方法实现IMPc与selectorN的方法实现IMPn交换了，当我们调用selectorC，也就是给对象发送selectorC消息时，所查找到的对应的方法实现就是IMPn而不是IMPc了。
 
