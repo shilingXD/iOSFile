@@ -16,6 +16,7 @@
 
     // Logging
     [Logging logWithEventName:NSStringFromClass([self class])];
+    autotrla
 }
 
 void swizzleMethod(Class class, SEL originalSelector, SEL swizzledSelector)
