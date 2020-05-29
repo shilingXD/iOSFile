@@ -11,8 +11,8 @@
 
 ### 知识点
 
-- [iOS 深拷贝和浅拷贝](知识点/iOS 深拷贝和浅拷贝.md)
-- [iOS Runtime详解](知识点/iOS Runtime详解.md)
+- [iOS 深拷贝和浅拷贝](知识点/iOS深拷贝和浅拷贝.md)
+- [iOS Runtime详解](知识点/iOSRuntime详解.md)
 - [iOS中的SEL和IMP到底是什么](知识点/iOS中的SEL和IMP到底是什么.md)
 
 
@@ -21,4 +21,4 @@
 
 ### 书籍
 
-- [禅与 Objective-C 编程艺术](书籍/禅与 Objective-C 编程艺术/README.md)
+- [禅与 Objective-C 编程艺术](书籍/禅与Objective-C编程艺术/README.md)
