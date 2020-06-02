@@ -14,7 +14,8 @@
 - [iOS 深拷贝和浅拷贝](知识点/iOS深拷贝和浅拷贝.md)
 - [iOS Runtime详解](知识点/iOSRuntime详解.md)
 - [iOS中的SEL和IMP到底是什么](知识点/iOS中的SEL和IMP到底是什么.md)
-
+- [iOS多线程：NSOperation详解](知识点/iOS多线程：NSOperation详解.md)
+- [iOS多线程：GCD详解](知识点/iOS多线程：GCD详解.md)
 
 
 ---
