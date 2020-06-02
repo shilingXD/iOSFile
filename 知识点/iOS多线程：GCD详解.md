@@ -76,7 +76,7 @@ dispatch_queue_t globalQueue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY
 1. GCD默认提供了**主队列**，调用`dispatch_get_main_queue`方法获取，所有放在主队列中的任务都会在主线程中执行。主队列是一种串行队列。
 
 ```objective-c
-// 主队
+// 主队列，串行队列
 dispatch_queue_t mainQueue = dispatch_get_main_queue();
 ```
 
@@ -526,7 +526,7 @@ GCD中的信号量是指的`Dispatch Semaphore`，是持有计数的信号。当
 - `dispatch_semaphore_signal`：发送一个信号，让信号总量加 1
 - `dispatch_semaphore_wait`：可以使总信号量减 1，信号总量小于 0 时就会一直等待（阻塞所在线程），否则就可以正常执行。
 
-```objective-c
+```
 - (void)semaphoreTest {
    dispatch_semaphore_t semaphore = dispatch_semaphore_create(0);
     __block int a = 0;
